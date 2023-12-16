@@ -1,32 +1,31 @@
-/* .demo-wrap {
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .demo-bg {
-    opacity: 0.4;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 1535px;
-    height: 729px;
-  } */
-new
-form{
-    margin-top: 150px;
-    margin-left: 500px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: rgb(210, 15, 15) solid 5px;
+body{
+    background-image: url(./pexels-stein-egil-liland-1933320.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 80vh;
+    width: 100%;
+}
+
+.inner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+    align-items: center; 
+    justify-content: center; 
+    border: rgb(105, 225, 103) solid 5px;
     border-radius: 20px;
     background-color: transparent;
-    height: 450px;
-    width: 600px;
-    
+    height: 350px;
+    width: 500px;
 }
 
 label{
@@ -37,25 +36,27 @@ label{
 
 h1{
     font-size: 50px;
-    color:black;
-    margin-top: px;
+    color:aliceblue;
+    margin-top:50px;
+    margin-left: 75px
 }
 
 #username{
     margin-top: 10px;
     align-items:center ;
-    margin-left: 90px;
+    margin-top: 30px;
+    margin-left: 165px;
 }
 
 #password{
     margin-top: 5px;
-    margin-left: 90px;
+    margin-left: 165px;
 }
 
 button{
-    align-items: center;
+    width: 80px;
     margin-top:30px;
-    margin-left: 150px;
+    margin-left: 210px;
     cursor: pointer;
     border: black solid;
     border-radius: 5px;
@@ -67,5 +68,8 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+}
+
+a{
+    color: aliceblue;
 }
