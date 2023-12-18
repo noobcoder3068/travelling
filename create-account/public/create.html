@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create new account</title>
+    <link rel="stylesheet" href="./createstyle.css">
+</head>
+<body>
+    <form class="outerbox" action="/create" method="POST">
+        <div class="container">
+            
+            <h1>CREATE ACCOUNT</h1>
+
+            <div class="name">
+                <div class="fname">
+                    <input type="text" placeholder="first name" name="fname" required><br>
+                    <label>First Name</label>
+                </div>
+                <div class="lname">
+                    <input type="text" placeholder="last name" name="lname" required><br>
+                    <label>Last Name</label>
+                </div>
+            </div>
+
+            <div class="email">
+                <input type="email" id="emailp" placeholder="email" name="email" required><br>
+                <label style="margin-left: 50px;">Email</label>
+            </div>
+
+            <div class="phoneno">
+                <input type="text" placeholder="Phone Number" name="fname" required><br>
+                <label>Contact Number</label>
+            </div>
+
+            <div class="usepass">
+                <div class="setusername">
+                    <input type="text" placeholder="create username" name="setusername" required><br>
+                    <label>Username</label>
+                </div>
+    
+                <div class="pass">
+                    <input type="password" placeholder="Create password" name="pass" required><br>
+                    <label>Password</label>
+                </div>
+            </div>
+
+            <div class="button">
+                <button type="submit" name="button" onclick="">CREATE</button>
+            </div>
+
+        </div>
+    </form>    
+</body>
+</html>
